@@ -1,0 +1,9 @@
+record(longout, "$(DEV):$(RECORD_NAME)")
+{
+    field(DESC, "$(DESC)")
+    field(SCAN, "Passive")
+    field(DTYP, "asynInt32")
+    field(OUT,  "@asyn(hpm900_set_reg,$(OFFSET))UINT16")
+    field(VAL,  "1234")
+}
+

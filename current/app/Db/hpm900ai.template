@@ -1,0 +1,10 @@
+record(ai, "$(DEV):$(RECORD_NAME)")
+{
+    field(PINI, "YES")
+    field(DESC, "$(DESC)")
+    field(SCAN, "2 second")
+    field(DTYP, "asynFloat64")
+    field(INP,  "@asyn(hpm900_read_reg,$(OFFSET))$(DATA_TYPE)")
+    field(EGU,  "$(EGU)")
+}
+

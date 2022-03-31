@@ -1,0 +1,5 @@
+file hpm900mbbi.template {
+  pattern {RECORD_NAME, OFFSET, DESC}
+  {MODE_PNL_A_RBV, 29, "Mode read back of panel A"}
+  {MODE_PNL_B_RBV, 30, "Mode read back of panel B"}
+}

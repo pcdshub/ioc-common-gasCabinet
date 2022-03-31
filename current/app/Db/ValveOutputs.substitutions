@@ -1,0 +1,37 @@
+file hpm900mbbiDirect.template {
+  pattern {RECORD_NAME, OFFSET, FANOUT_RECORD}
+  {VALVE_OUTPUTS_RBV, 40, VALVE_OUTPUTS_FANOUT}
+}
+
+file fanout12bit.template {
+    pattern {RECORD_NAME,LINK0,LINK1,LINK2,LINK3,LINK4,LINK5,LINK6,LINK7,LINK8,LINK9,LINKA,LINKB}
+    {VALVE_OUTPUTS_FANOUT,
+     LPI:2:OPN_DO_RBV,
+     LPV:2:OPN_DO_RBV,
+     VGS:2:OPN_DO_RBV,
+     HPV:2:OPN_DO_RBV,
+     HPI:2:OPN_DO_RBV,
+     PGI:2:OPN_DO_RBV,
+     LPI:1:OPN_DO_RBV,
+     LPV:1:OPN_DO_RBV,
+     VGS:1:OPN_DO_RBV,
+     HPV:1:OPN_DO_RBV,
+     HPI:1:OPN_DO_RBV,
+     PGI:1:OPN_DO_RBV}
+}
+
+file hpm900bi.template {
+    pattern {RECORD_NAME, DESC, BIT}
+    {HPI:2:OPN_DO_RBV, "HPI 2 valve position state", 0}
+    {HPV:2:OPN_DO_RBV, "HPV 2 valve position state", 1}
+    {PGI:2:OPN_DO_RBV, "PGI 2 valve position state", 2}
+    {LPI:2:OPN_DO_RBV, "LPI 2 valve position state", 3}
+    {LPV:2:OPN_DO_RBV, "LPV 2 valve position state", 4}
+    {VGS:2:OPN_DO_RBV, "VGS 2 valve position state", 5}
+    {HPI:1:OPN_DO_RBV, "HPI 1 valve position state", 8}
+    {HPV:1:OPN_DO_RBV, "HPV 1 valve position state", 9}
+    {PGI:1:OPN_DO_RBV, "PGI 1 valve position state", A}    
+    {LPI:1:OPN_DO_RBV, "LPI 1 valve position state", B}    
+    {LPV:1:OPN_DO_RBV, "LPV 1 valve position state", C}
+    {VGS:1:OPN_DO_RBV, "VGS 1 valve position state", D}
+}

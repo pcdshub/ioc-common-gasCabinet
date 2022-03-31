@@ -1,0 +1,42 @@
+file hpm900longout.template {
+  pattern {RECORD_NAME, OFFSET, DESC}
+  {ALARM_ACK_SET, 0, "set Alarm Ack register"}
+  {ALARM_RESET_SET, 1, "set Alarm Reaset register"}
+  {PANEL_A_STOP_SET, 2, "set Panel A Stop Button register"}
+  {PANEL_B_STOP_SET, 3, "set Panel B Stop Button register"}
+  {PANEL_A_MANUAL_MODE_SET, 4, "set Manual Mode for Panel A"}
+  {PANEL_B_MANUAL_MODE_SET, 5, "set Manual Mode for Panel B"}
+  {PANEL_A_SERVICE_MODE_SET, 6, "set Service Mode for Panel A"}
+  {PANEL_B_SERVICE_MODE_SET, 7, "set Service Mode for Panel B"}
+  {MANUAL_SWITCHOVER_SET, 8, "set Manual Switchover register"}
+  {LPI_REMOTE_RESET, 9, "reset LPI Remote register"}
+  {LPI_REMOTE_SET, 10, "set LPI Remote register"}
+}
+
+file hpm900bo.template {
+  pattern {RECORD_NAME, FLNK, DESC}
+  {ALARM_ACK_BUTT, ALARM_ACK_SET, "Acknowledge alarm button"}
+  {ALARM_RESET_BUTT, ALARM_RESET_SET, "Reset alarm button"}
+  {PANEL_A_STOP_BUTT, PANEL_A_STOP_SET, "Panel A Stop button"}
+  {PANEL_B_STOP_BUTT, PANEL_B_STOP_SET, "Panel B Stop button"}
+  {PANEL_A_MANUAL_BUTT, PANEL_A_MANUAL_MODE_SET, "Panel A Manual mode button"}
+  {PANEL_B_MANUAL_BUTT, PANEL_B_MANUAL_MODE_SET, "Panel B Manual mode button"}
+  {PANEL_A_SERVICE_BUTT, PANEL_A_SERVICE_MODE_SET, "Panel A Service mode button"}
+  {PANEL_B_SERVICE_BUTT, PANEL_A_SERVICE_MODE_SET, "Panel B Service mode button"}
+  {MANUAL_SWOVER_BUTT, MANUAL_SWITCHOVER_SET, "Manual Switchover button"}
+  {LPI_REMOTE_BUTT, LPI_REMOTE_SET, "LPI valve Remote mode button"}
+  {LPI_LOCAL_BUTT, LPI_REMOTE_RESET, "LPI valve Local mode button"}
+}
+
+#file hpm900longin.template {
+#  pattern {RECORD_NAME, OFFSET, DESC}
+#  {ALARM_ACK_RBV, 60, "Alarm Ack read back"}
+#  {ALARM_RESET_RBV, 61, "Alarm Reaset register read back"}
+#  {PANEL_A_STOP_RBV, 62, "Panel A Stop Button read back"}
+#  {PANEL_B_STOP_RBV, 63, "Panel B Stop Button read back"}
+#  {PANEL_A_MANUAL_MODE_RBV, 64, "Manual Mode for Panel A read back"}
+#  {PANEL_B_MANUAL_MODE_RBV, 65, "Manual Mode for Panel B read back"}
+#  {PANEL_A_SERVICE_MODE_RBV, 66, "Service Mode for Panel A read back"}
+#  {PANEL_A_SERVICE_MODE_RBV, 67, "Service Mode for Panel B read back"}
+#  {MANUAL_SWITCHOVER_RBV, 68, "Manual Switchover register read back"}
+#}

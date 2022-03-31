@@ -1,0 +1,7 @@
+record(bo, "$(DEV):$(RECORD_NAME)")
+{
+    field(DESC, "$(DESC)")
+    field(SCAN, "Passive")
+    field(FLNK, "$(DEV):$(FLNK)")
+}
+

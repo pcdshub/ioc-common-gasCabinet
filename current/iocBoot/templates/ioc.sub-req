@@ -1,0 +1,7 @@
+# thermocon IOC instance autosave file
+
+file hpm900.req
+{
+	{ IOC = "$$IOC_PV", BASE="$$BASE" }
+}
+

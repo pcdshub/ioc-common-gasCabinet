@@ -1,0 +1,8 @@
+record(longin, "$(DEV):$(RECORD_NAME)")
+{
+    field(DESC, "$(DESC)")
+    field(SCAN, "1 second")
+    field(DTYP, "asynInt32")
+    field(INP,  "@asyn(hpm900_read_reg,$(OFFSET))UINT16")
+}
+

@@ -1,0 +1,7 @@
+file hpm900ai.template {
+  pattern {RECORD_NAME, OFFSET, EGU, DESC}
+  {HPT:1:RN_RBV, 13, "psig", "Card 1 Channel 0 Real Number HPT-1"}
+  {LPT:1:RN_RBV, 15, "psig", "Card 1 Channel 1 Real Number LPT-1"}
+  {VPT:1:RN_RBV, 17, "psig", "Card 1 Channel 2 Real Number VPT-1"}
+  {LPT:3:RN_RBV, 19, "psig", "Card 1 Channel 3 Real Number LPT-3"}
+}
