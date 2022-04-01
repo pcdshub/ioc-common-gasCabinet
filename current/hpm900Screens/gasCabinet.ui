@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>850</width>
+    <width>870</width>
     <height>500</height>
    </rect>
   </property>
@@ -430,7 +430,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="ControlOnlyValveNC" name="PGI1">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>330</x>
      <y>250</y>
      <width>51</width>
      <height>41</height>
@@ -554,7 +554,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="HPV1_label">
    <property name="geometry">
     <rect>
-     <x>280</x>
+     <x>290</x>
      <y>260</y>
      <width>51</width>
      <height>21</height>
@@ -570,7 +570,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="PGI1_label">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>370</x>
      <y>260</y>
      <width>51</width>
      <height>21</height>
@@ -587,7 +587,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <property name="geometry">
     <rect>
      <x>200</x>
-     <y>270</y>
+     <y>260</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -598,28 +598,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <property name="text">
     <string>HPI-1</string>
    </property>
-  </widget>
-  <widget class="PyDMLabel" name="LPI1_label">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>140</y>
-     <width>41</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>LPI-1</string>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="PyDMLabel" name="LPV1_label">
    <property name="geometry">
     <rect>
      <x>100</x>
-     <y>160</y>
+     <y>150</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -630,12 +617,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <property name="text">
     <string>LPV-1</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="PyDMLabel" name="VGS1_label">
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>160</y>
+     <y>150</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -645,6 +635,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    </property>
    <property name="text">
     <string>VGS-1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -696,7 +689,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <rect>
      <x>240</x>
      <y>290</y>
-     <width>101</width>
+     <width>111</width>
      <height>21</height>
     </rect>
    </property>
@@ -716,7 +709,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_4">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>340</x>
      <y>280</y>
      <width>21</width>
      <height>51</height>
@@ -740,7 +733,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <rect>
      <x>170</x>
      <y>320</y>
-     <width>171</width>
+     <width>181</width>
      <height>21</height>
     </rect>
    </property>
@@ -1195,44 +1188,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="PyDMDrawingRectangle" name="EFS1">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>200</y>
-     <width>21</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="255">
-      <red>0</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-   <property name="penCapStyle" stdset="0">
-    <enum>Qt::RoundCap</enum>
-   </property>
-   <property name="penColor" stdset="0">
-    <color>
-     <red>0</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="penWidth" stdset="0">
-    <double>2.000000000000000</double>
-   </property>
-  </widget>
   <widget class="PyDMLabel" name="LPT1_label">
    <property name="geometry">
     <rect>
@@ -1319,7 +1274,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_21">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>340</x>
      <y>230</y>
      <width>21</width>
      <height>31</height>
@@ -1365,7 +1320,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <rect>
      <x>80</x>
      <y>100</y>
-     <width>391</width>
+     <width>411</width>
      <height>21</height>
     </rect>
    </property>
@@ -1439,8 +1394,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="VacSupply1_label">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>180</y>
+     <x>330</x>
+     <y>140</y>
      <width>71</width>
      <height>31</height>
     </rect>
@@ -1518,26 +1473,10 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
    </property>
   </widget>
-  <widget class="PyDMLabel" name="LPI2_label">
-   <property name="geometry">
-    <rect>
-     <x>420</x>
-     <y>140</y>
-     <width>41</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>LPI-2</string>
-   </property>
-  </widget>
   <widget class="Line" name="line_24">
    <property name="geometry">
     <rect>
-     <x>470</x>
+     <x>490</x>
      <y>290</y>
      <width>131</width>
      <height>21</height>
@@ -1559,7 +1498,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_25">
    <property name="geometry">
     <rect>
-     <x>590</x>
+     <x>610</x>
      <y>170</y>
      <width>21</width>
      <height>21</height>
@@ -1581,7 +1520,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="ControlOnlyValveNC" name="PGI2">
    <property name="geometry">
     <rect>
-     <x>710</x>
+     <x>740</x>
      <y>250</y>
      <width>51</width>
      <height>41</height>
@@ -1612,7 +1551,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="REG2_label">
    <property name="geometry">
     <rect>
-     <x>500</x>
+     <x>520</x>
      <y>310</y>
      <width>51</width>
      <height>21</height>
@@ -1628,7 +1567,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_26">
    <property name="geometry">
     <rect>
-     <x>550</x>
+     <x>570</x>
      <y>330</y>
      <width>21</width>
      <height>21</height>
@@ -1650,7 +1589,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_27">
    <property name="geometry">
     <rect>
-     <x>460</x>
+     <x>480</x>
      <y>160</y>
      <width>21</width>
      <height>141</height>
@@ -1672,7 +1611,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_29">
    <property name="geometry">
     <rect>
-     <x>600</x>
+     <x>620</x>
      <y>180</y>
      <width>21</width>
      <height>21</height>
@@ -1694,7 +1633,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="Panel2_label">
    <property name="geometry">
     <rect>
-     <x>630</x>
+     <x>650</x>
      <y>400</y>
      <width>91</width>
      <height>31</height>
@@ -1732,7 +1671,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="PGI2_label">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>780</x>
      <y>260</y>
      <width>51</width>
      <height>21</height>
@@ -1748,7 +1687,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="ControlOnlyValveNC" name="VGS2">
    <property name="geometry">
     <rect>
-     <x>670</x>
+     <x>690</x>
      <y>170</y>
      <width>51</width>
      <height>41</height>
@@ -1779,7 +1718,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="ControlOnlyValveNC" name="LPI2">
    <property name="geometry">
     <rect>
-     <x>450</x>
+     <x>470</x>
      <y>130</y>
      <width>51</width>
      <height>41</height>
@@ -1810,7 +1749,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="HPV2_label">
    <property name="geometry">
     <rect>
-     <x>670</x>
+     <x>700</x>
      <y>260</y>
      <width>51</width>
      <height>21</height>
@@ -1826,9 +1765,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_30">
    <property name="geometry">
     <rect>
-     <x>560</x>
+     <x>580</x>
      <y>320</y>
-     <width>171</width>
+     <width>181</width>
      <height>21</height>
     </rect>
    </property>
@@ -1848,7 +1787,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_4">
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>600</x>
      <y>360</y>
      <width>41</width>
      <height>100</height>
@@ -1886,7 +1825,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_31">
    <property name="geometry">
     <rect>
-     <x>690</x>
+     <x>710</x>
      <y>330</y>
      <width>21</width>
      <height>21</height>
@@ -1908,7 +1847,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="VPT2_label">
    <property name="geometry">
     <rect>
-     <x>510</x>
+     <x>530</x>
      <y>240</y>
      <width>41</width>
      <height>21</height>
@@ -1924,7 +1863,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5">
    <property name="geometry">
     <rect>
-     <x>620</x>
+     <x>640</x>
      <y>180</y>
      <width>41</width>
      <height>21</height>
@@ -1962,7 +1901,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_32">
    <property name="geometry">
     <rect>
-     <x>720</x>
+     <x>750</x>
      <y>280</y>
      <width>21</width>
      <height>51</height>
@@ -1984,7 +1923,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="Vent2_label">
    <property name="geometry">
     <rect>
-     <x>570</x>
+     <x>590</x>
      <y>150</y>
      <width>71</width>
      <height>21</height>
@@ -2022,7 +1961,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_33">
    <property name="geometry">
     <rect>
-     <x>560</x>
+     <x>580</x>
      <y>340</y>
      <width>41</width>
      <height>21</height>
@@ -2044,7 +1983,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="ControlOnlyValveNC" name="HPV2">
    <property name="geometry">
     <rect>
-     <x>640</x>
+     <x>660</x>
      <y>250</y>
      <width>51</width>
      <height>41</height>
@@ -2072,49 +2011,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="PyDMDrawingRectangle" name="EFS2">
-   <property name="geometry">
-    <rect>
-     <x>460</x>
-     <y>200</y>
-     <width>21</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="brush" stdset="0">
-    <brush brushstyle="SolidPattern">
-     <color alpha="255">
-      <red>0</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </brush>
-   </property>
-   <property name="penStyle" stdset="0">
-    <enum>Qt::SolidLine</enum>
-   </property>
-   <property name="penCapStyle" stdset="0">
-    <enum>Qt::RoundCap</enum>
-   </property>
-   <property name="penColor" stdset="0">
-    <color>
-     <red>0</red>
-     <green>0</green>
-     <blue>0</blue>
-    </color>
-   </property>
-   <property name="penWidth" stdset="0">
-    <double>2.000000000000000</double>
-   </property>
-  </widget>
   <widget class="PyDMLabel" name="LPV2_label">
    <property name="geometry">
     <rect>
-     <x>490</x>
-     <y>160</y>
+     <x>510</x>
+     <y>150</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -2125,12 +2026,15 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <property name="text">
     <string>LPV-2</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="PyDMLabel" name="VacSuppyl2_label">
    <property name="geometry">
     <rect>
-     <x>740</x>
-     <y>180</y>
+     <x>780</x>
+     <y>170</y>
      <width>71</width>
      <height>31</height>
     </rect>
@@ -2173,8 +2077,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="HPI2_label">
    <property name="geometry">
     <rect>
-     <x>590</x>
-     <y>270</y>
+     <x>610</x>
+     <y>260</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -2185,11 +2089,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <property name="text">
     <string>HPI-2</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="PyDMLabel" name="LPT2_label">
    <property name="geometry">
     <rect>
-     <x>400</x>
+     <x>420</x>
      <y>260</y>
      <width>41</width>
      <height>21</height>
@@ -2205,7 +2112,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_34">
    <property name="geometry">
     <rect>
-     <x>630</x>
+     <x>650</x>
      <y>200</y>
      <width>21</width>
      <height>21</height>
@@ -2227,7 +2134,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="ControlOnlyValveNC" name="LPV2">
    <property name="geometry">
     <rect>
-     <x>490</x>
+     <x>510</x>
      <y>170</y>
      <width>51</width>
      <height>41</height>
@@ -2258,7 +2165,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_35">
    <property name="geometry">
     <rect>
-     <x>540</x>
+     <x>560</x>
      <y>190</y>
      <width>21</width>
      <height>31</height>
@@ -2280,7 +2187,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMDrawingCircle" name="PyDMDrawingCircle_2">
    <property name="geometry">
     <rect>
-     <x>510</x>
+     <x>530</x>
      <y>290</y>
      <width>31</width>
      <height>21</height>
@@ -2293,7 +2200,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="HPT2_label">
    <property name="geometry">
     <rect>
-     <x>630</x>
+     <x>650</x>
      <y>350</y>
      <width>41</width>
      <height>21</height>
@@ -2309,7 +2216,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="EFS2_label">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>440</x>
      <y>210</y>
      <width>41</width>
      <height>21</height>
@@ -2325,7 +2232,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_36">
    <property name="geometry">
     <rect>
-     <x>460</x>
+     <x>480</x>
      <y>110</y>
      <width>21</width>
      <height>31</height>
@@ -2347,9 +2254,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_37">
    <property name="geometry">
     <rect>
-     <x>630</x>
+     <x>650</x>
      <y>290</y>
-     <width>101</width>
+     <width>111</width>
      <height>21</height>
     </rect>
    </property>
@@ -2369,7 +2276,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_38">
    <property name="geometry">
     <rect>
-     <x>570</x>
+     <x>590</x>
      <y>220</y>
      <width>21</width>
      <height>21</height>
@@ -2391,7 +2298,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMDrawingPie" name="PyDMDrawingPie_2">
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>600</x>
      <y>340</y>
      <width>41</width>
      <height>51</height>
@@ -2429,7 +2336,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="ControlOnlyValveNC" name="HPI2">
    <property name="geometry">
     <rect>
-     <x>590</x>
+     <x>610</x>
      <y>280</y>
      <width>51</width>
      <height>41</height>
@@ -2460,8 +2367,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="VGS2_label">
    <property name="geometry">
     <rect>
-     <x>670</x>
-     <y>160</y>
+     <x>690</x>
+     <y>150</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -2472,11 +2379,14 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    <property name="text">
     <string>VGS-2</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="Line" name="line_39">
    <property name="geometry">
     <rect>
-     <x>660</x>
+     <x>680</x>
      <y>180</y>
      <width>21</width>
      <height>21</height>
@@ -2498,7 +2408,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_40">
    <property name="geometry">
     <rect>
-     <x>530</x>
+     <x>550</x>
      <y>180</y>
      <width>21</width>
      <height>21</height>
@@ -2520,7 +2430,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_41">
    <property name="geometry">
     <rect>
-     <x>650</x>
+     <x>670</x>
      <y>280</y>
      <width>21</width>
      <height>21</height>
@@ -2542,7 +2452,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_42">
    <property name="geometry">
     <rect>
-     <x>650</x>
+     <x>670</x>
      <y>220</y>
      <width>21</width>
      <height>41</height>
@@ -2564,7 +2474,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_43">
    <property name="geometry">
     <rect>
-     <x>720</x>
+     <x>750</x>
      <y>230</y>
      <width>21</width>
      <height>31</height>
@@ -2586,7 +2496,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_44">
    <property name="geometry">
     <rect>
-     <x>550</x>
+     <x>570</x>
      <y>210</y>
      <width>111</width>
      <height>21</height>
@@ -2608,7 +2518,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_45">
    <property name="geometry">
     <rect>
-     <x>470</x>
+     <x>490</x>
      <y>180</y>
      <width>31</width>
      <height>21</height>
@@ -2630,9 +2540,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_46">
    <property name="geometry">
     <rect>
-     <x>710</x>
+     <x>730</x>
      <y>180</y>
-     <width>31</width>
+     <width>51</width>
      <height>21</height>
     </rect>
    </property>
@@ -2652,9 +2562,9 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_28">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>350</x>
      <y>220</y>
-     <width>391</width>
+     <width>411</width>
      <height>21</height>
     </rect>
    </property>
@@ -2674,7 +2584,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_47">
    <property name="geometry">
     <rect>
-     <x>720</x>
+     <x>750</x>
      <y>140</y>
      <width>21</width>
      <height>91</height>
@@ -2696,7 +2606,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="PurgeSupp_label">
    <property name="geometry">
     <rect>
-     <x>700</x>
+     <x>730</x>
      <y>110</y>
      <width>71</width>
      <height>31</height>
@@ -2816,7 +2726,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="Line" name="line_49">
    <property name="geometry">
     <rect>
-     <x>730</x>
+     <x>760</x>
      <y>210</y>
      <width>16</width>
      <height>21</height>
@@ -2835,49 +2745,11 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="PyDMLabel" name="PPS_label">
-   <property name="geometry">
-    <rect>
-     <x>750</x>
-     <y>210</y>
-     <width>31</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>9</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="focusPolicy">
-    <enum>Qt::NoFocus</enum>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="lineWidth">
-    <number>1</number>
-   </property>
-   <property name="text">
-    <string>PPS</string>
-   </property>
-   <property name="textFormat">
-    <enum>Qt::PlainText</enum>
-   </property>
-   <property name="scaledContents">
-    <bool>false</bool>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
   <widget class="PyDMRelatedDisplayButton" name="alarms_button">
    <property name="geometry">
     <rect>
-     <x>740</x>
-     <y>70</y>
+     <x>760</x>
+     <y>30</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -2915,7 +2787,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string/>
    </property>
    <property name="text">
-    <string>STOP PNL 1</string>
+    <string>STOP PANEL</string>
    </property>
    <property name="channel" stdset="0">
     <string>ca://${DEV}:PANEL_A_STOP_SET</string>
@@ -2927,7 +2799,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMPushButton" name="PanelB_Stop">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>760</x>
      <y>350</y>
      <width>101</width>
      <height>31</height>
@@ -2937,7 +2809,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string/>
    </property>
    <property name="text">
-    <string>STOP PNL 2</string>
+    <string>STOP PANEL</string>
    </property>
    <property name="channel" stdset="0">
     <string>ca://${DEV}:PANEL_B_STOP_SET</string>
@@ -2959,7 +2831,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string/>
    </property>
    <property name="text">
-    <string>MANUAL PNL 1</string>
+    <string>MANUAL MODE</string>
    </property>
    <property name="channel" stdset="0">
     <string>ca://${DEV}:PANEL_A_MANUAL_MODE_SET</string>
@@ -2971,7 +2843,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMPushButton" name="PanelB_Manual">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>760</x>
      <y>390</y>
      <width>101</width>
      <height>31</height>
@@ -2981,7 +2853,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string/>
    </property>
    <property name="text">
-    <string>MANUAL PNL 2</string>
+    <string>MANUAL MODE</string>
    </property>
    <property name="channel" stdset="0">
     <string>ca://${DEV}:PANEL_B_MANUAL_MODE_SET</string>
@@ -3003,7 +2875,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string/>
    </property>
    <property name="text">
-    <string>SERVICE PNL 1</string>
+    <string>SERVICE MODE</string>
    </property>
    <property name="channel" stdset="0">
     <string>ca://${DEV}:PANEL_A_SERVICE_MODE_SET</string>
@@ -3015,7 +2887,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMPushButton" name="PanelB_Service">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>760</x>
      <y>430</y>
      <width>101</width>
      <height>31</height>
@@ -3025,7 +2897,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string/>
    </property>
    <property name="text">
-    <string>SERVICE PNL 2</string>
+    <string>SERVICE MODE</string>
    </property>
    <property name="channel" stdset="0">
     <string>ca://${DEV}:PANEL_B_SERVICE_MODE_SET</string>
@@ -3040,8 +2912,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    </property>
    <property name="geometry">
     <rect>
-     <x>690</x>
-     <y>30</y>
+     <x>710</x>
+     <y>70</y>
      <width>151</width>
      <height>31</height>
     </rect>
@@ -3115,7 +2987,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="Panel2Mode_label">
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>600</x>
      <y>470</y>
      <width>121</width>
      <height>21</height>
@@ -3131,7 +3003,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMLabel" name="Panel2_Mode">
    <property name="geometry">
     <rect>
-     <x>710</x>
+     <x>730</x>
      <y>470</y>
      <width>131</width>
      <height>21</height>
@@ -3224,8 +3096,8 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMRelatedDisplayButton" name="PlcIO_button">
    <property name="geometry">
     <rect>
-     <x>630</x>
-     <y>70</y>
+     <x>650</x>
+     <y>30</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -3392,7 +3264,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    </property>
    <property name="geometry">
     <rect>
-     <x>550</x>
+     <x>570</x>
      <y>240</y>
      <width>61</width>
      <height>21</height>
@@ -3426,7 +3298,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    </property>
    <property name="geometry">
     <rect>
-     <x>440</x>
+     <x>460</x>
      <y>260</y>
      <width>61</width>
      <height>21</height>
@@ -3460,7 +3332,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
    </property>
    <property name="geometry">
     <rect>
-     <x>670</x>
+     <x>690</x>
      <y>350</y>
      <width>61</width>
      <height>21</height>
@@ -3513,7 +3385,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <widget class="PyDMDrawingRectangle" name="LPT2_Rectangle">
    <property name="geometry">
     <rect>
-     <x>440</x>
+     <x>460</x>
      <y>260</y>
      <width>61</width>
      <height>21</height>
@@ -3577,62 +3449,739 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QGroupBox" name="LPIRemote">
+  <widget class="PyDMByteIndicator" name="ExcesFlowSwitchIndicator1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>21</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:DIG_IN_1_RBV</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="PurgeIndicator">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>210</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:DIG_IN_4_RBV</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="PPS_label">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>210</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>PPS</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMByteIndicator" name="ExcesFlowSwitchIndicator1_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>200</y>
+     <width>21</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:DIG_IN_3_RBV</string>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="showLabels" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="circles" stdset="0">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="PyDMPushButton" name="LPIRemoteSET">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>370</y>
-     <width>121</width>
-     <height>91</height>
+     <y>160</y>
+     <width>51</width>
+     <height>21</height>
     </rect>
    </property>
-   <property name="title">
-    <string>Remote LPI Control</string>
+   <property name="toolTip">
+    <string/>
    </property>
-   <widget class="PyDMPushButton" name="LPIRemoteSET">
+   <property name="text">
+    <string>OPEN</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:LPI_REMOTE_SET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
+  </widget>
+  <widget class="PyDMPushButton" name="LPIRemoteRESET">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>CLOSE</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:LPI_REMOTE_RESET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="LPI1_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>LPI-1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="LPI2_label">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>140</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>LPI-1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="PyDMPushButton" name="LPIRemoteRESET_2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>180</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>CLOSE</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:LPI_REMOTE_RESET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
+  </widget>
+  <widget class="PyDMPushButton" name="LPIRemoteSET_2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>160</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>OPEN</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:LPI_REMOTE_SET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_50">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>170</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="PyDMPushButton" name="Alarm_Reset">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>450</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>RESET ALARMS</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:ALARM_RESET_SET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
+  </widget>
+  <widget class="PyDMPushButton" name="Alarm_Ack">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>470</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>ACK ALARMS</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:ALARM_ACK_SET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="PanelStatus2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>360</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Panel 2 Status</string>
+   </property>
+   <widget class="PyDMByteIndicator" name="RunningStatus2">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>90</x>
       <y>20</y>
-      <width>121</width>
-      <height>31</height>
+      <width>21</width>
+      <height>21</height>
      </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
     </property>
     <property name="toolTip">
      <string/>
     </property>
-    <property name="text">
-     <string>REMOTE</string>
+    <property name="rules" stdset="0">
+     <string>[]</string>
     </property>
     <property name="channel" stdset="0">
-     <string>ca://${DEV}:LPI_REMOTE_SET</string>
+     <string>ca://${DEV}:GREEN_SYSTEM_B_RBV</string>
     </property>
-    <property name="pressValue" stdset="0">
-     <string>1234</string>
+    <property name="showLabels" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="circles" stdset="0">
+     <bool>true</bool>
     </property>
    </widget>
-   <widget class="PyDMPushButton" name="LPIRemoteRESET">
+   <widget class="PyDMByteIndicator" name="WarningStatus2">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>60</y>
-      <width>121</width>
-      <height>31</height>
+      <x>90</x>
+      <y>40</y>
+      <width>21</width>
+      <height>21</height>
      </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
     </property>
     <property name="toolTip">
      <string/>
     </property>
-    <property name="text">
-     <string>LOCAL</string>
-    </property>
     <property name="channel" stdset="0">
-     <string>ca://${DEV}:LPI_REMOTE_RESET</string>
+     <string>ca://${DEV}:YELLOW_SYSTEM_B_RBV</string>
     </property>
-    <property name="pressValue" stdset="0">
-     <string>1234</string>
+    <property name="onColor" stdset="0">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="showLabels" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="circles" stdset="0">
+     <bool>true</bool>
     </property>
    </widget>
+   <widget class="PyDMByteIndicator" name="AlarmStatus2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="channel" stdset="0">
+     <string>ca://${DEV}:RED_SYSTEM_B_RBV</string>
+    </property>
+    <property name="onColor" stdset="0">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="showLabels" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="circles" stdset="0">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RunningStatusText2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>RUNNING</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WarningStatusText2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>WARNING</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AlarmStatusText2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ALARM</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="PanelStatus1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>360</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Panel 1 Status</string>
+   </property>
+   <widget class="PyDMByteIndicator" name="RunningStatus1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>20</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="rules" stdset="0">
+     <string>[]</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string>ca://${DEV}:GREEN_SYSTEM_A_RBV</string>
+    </property>
+    <property name="showLabels" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="circles" stdset="0">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="PyDMByteIndicator" name="WarningStatus1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="channel" stdset="0">
+     <string>ca://${DEV}:YELLOW_SYSTEM_A_RBV</string>
+    </property>
+    <property name="onColor" stdset="0">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="showLabels" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="circles" stdset="0">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="PyDMByteIndicator" name="AlarmStatus1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="channel" stdset="0">
+     <string>ca://${DEV}:RED_SYSTEM_A_RBV</string>
+    </property>
+    <property name="onColor" stdset="0">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="showLabels" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="circles" stdset="0">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RunningStatusText1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>RUNNING</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="WarningStatusText1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>WARNING</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AlarmStatusText1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ALARM</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="PyDMPushButton" name="Alarm_Reset_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>450</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>RESET ALARMS</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:ALARM_RESET_SET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
+  </widget>
+  <widget class="PyDMPushButton" name="Alarm_Ack_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>470</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>ACK ALARMS</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${DEV}:ALARM_ACK_SET</string>
+   </property>
+   <property name="pressValue" stdset="0">
+    <string>1234</string>
+   </property>
   </widget>
   <zorder>line</zorder>
   <zorder>line_48</zorder>
@@ -3660,7 +4209,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <zorder>HPV1_label</zorder>
   <zorder>PGI1_label</zorder>
   <zorder>HPI1_label</zorder>
-  <zorder>LPI1_label</zorder>
   <zorder>LPV1_label</zorder>
   <zorder>VGS1_label</zorder>
   <zorder>line_3</zorder>
@@ -3677,7 +4225,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <zorder>VPT1_label</zorder>
   <zorder>line_18</zorder>
   <zorder>line_19</zorder>
-  <zorder>EFS1</zorder>
   <zorder>LPT1_label</zorder>
   <zorder>PyDMDrawingCircle</zorder>
   <zorder>REG1_label</zorder>
@@ -3688,7 +4235,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <zorder>Vent1_label</zorder>
   <zorder>VacSupply1_label</zorder>
   <zorder>Panel1_label</zorder>
-  <zorder>LPI2_label</zorder>
   <zorder>line_24</zorder>
   <zorder>line_25</zorder>
   <zorder>PGI2</zorder>
@@ -3708,7 +4254,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <zorder>Vent2_label</zorder>
   <zorder>line_33</zorder>
   <zorder>HPV2</zorder>
-  <zorder>EFS2</zorder>
   <zorder>LPV2_label</zorder>
   <zorder>VacSuppyl2_label</zorder>
   <zorder>HPI2_label</zorder>
@@ -3733,7 +4278,6 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <zorder>Process_label</zorder>
   <zorder>LPT3_label</zorder>
   <zorder>line_49</zorder>
-  <zorder>PPS_label</zorder>
   <zorder>alarms_button</zorder>
   <zorder>PanelA_Stop</zorder>
   <zorder>PanelB_Stop</zorder>
@@ -3763,13 +4307,34 @@ IonPump[state=&quot;FAULT&quot;] #icon {
   <zorder>VGS2</zorder>
   <zorder>VGS1</zorder>
   <zorder>Title</zorder>
-  <zorder>LPIRemote</zorder>
+  <zorder>ExcesFlowSwitchIndicator1</zorder>
+  <zorder>PurgeIndicator</zorder>
+  <zorder>PPS_label</zorder>
+  <zorder>ExcesFlowSwitchIndicator1_2</zorder>
+  <zorder>LPIRemoteSET</zorder>
+  <zorder>LPIRemoteRESET</zorder>
+  <zorder>LPI1_label</zorder>
+  <zorder>LPI2_label</zorder>
+  <zorder>LPIRemoteRESET_2</zorder>
+  <zorder>LPIRemoteSET_2</zorder>
+  <zorder>line_50</zorder>
+  <zorder>Alarm_Reset</zorder>
+  <zorder>Alarm_Ack</zorder>
+  <zorder>PanelStatus2</zorder>
+  <zorder>PanelStatus1</zorder>
+  <zorder>Alarm_Reset_2</zorder>
+  <zorder>Alarm_Ack_2</zorder>
  </widget>
  <customwidgets>
   <customwidget>
    <class>PyDMLabel</class>
    <extends>QLabel</extends>
    <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMByteIndicator</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.byte</header>
   </customwidget>
   <customwidget>
    <class>PyDMDrawingArc</class>
