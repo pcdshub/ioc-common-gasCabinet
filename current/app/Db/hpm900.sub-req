@@ -6,4 +6,9 @@ file autosave_iocAdmin.tpl-req
 	}
 }
 
-# TODO: Add your custom template expansions here
+# Add your custom template expansions here
+file hpm900.tpl-req
+{
+     { BASE=$(BASE) }
+}    
+

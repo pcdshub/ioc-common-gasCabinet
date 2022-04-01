@@ -18,4 +18,9 @@ file archive_SR.tpl-arch
 	}
 }
 
-# TODO: Add your custom template expansions here
+# Add your custom template expansions here
+file hpm900.tpl-arch
+{
+     { BASE = $(BASE) }
+}
+     
