@@ -9,8 +9,8 @@ file hpm900longout.template {
   {PANEL_A_SERVICE_MODE_SET, 6, "set Service Mode for Panel A"}
   {PANEL_B_SERVICE_MODE_SET, 7, "set Service Mode for Panel B"}
   {MANUAL_SWITCHOVER_SET, 8, "set Manual Switchover register"}
-  {LPI_REMOTE_RESET, 9, "reset LPI Remote register"}
-  {LPI_REMOTE_SET, 10, "set LPI Remote register"}
+  {LPI_OPEN_SET, 9, "reset LPI Remote register"}
+  {LPI_OPEN_RESET, 10, "set LPI Remote register"}
 }
 
 file hpm900bo.template {
@@ -24,8 +24,8 @@ file hpm900bo.template {
   {PANEL_A_SERVICE_BUTT, PANEL_A_SERVICE_MODE_SET, "Panel A Service mode button"}
   {PANEL_B_SERVICE_BUTT, PANEL_A_SERVICE_MODE_SET, "Panel B Service mode button"}
   {MANUAL_SWOVER_BUTT, MANUAL_SWITCHOVER_SET, "Manual Switchover button"}
-  {LPI_REMOTE_BUTT, LPI_REMOTE_SET, "LPI valve Remote mode button"}
-  {LPI_LOCAL_BUTT, LPI_REMOTE_RESET, "LPI valve Local mode button"}
+  {LPI_OPEN_BUTT, LPI_OPEN_SET, "LPI valve Remote mode button"}
+  {LPI_CLOSE_BUTT, LPI_OPEN_RESET, "LPI valve Local mode button"}
 }
 
 #file hpm900longin.template {

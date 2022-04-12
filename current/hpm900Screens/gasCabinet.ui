@@ -3599,7 +3599,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string>OPEN</string>
    </property>
    <property name="channel" stdset="0">
-    <string>ca://${DEV}:LPI_REMOTE_SET</string>
+    <string>ca://${DEV}:LPI_OPEN_SET</string>
    </property>
    <property name="pressValue" stdset="0">
     <string>1234</string>
@@ -3621,7 +3621,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string>CLOSE</string>
    </property>
    <property name="channel" stdset="0">
-    <string>ca://${DEV}:LPI_REMOTE_RESET</string>
+    <string>ca://${DEV}:LPI_OPEN_RESET</string>
    </property>
    <property name="pressValue" stdset="0">
     <string>1234</string>
@@ -3681,7 +3681,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string>CLOSE</string>
    </property>
    <property name="channel" stdset="0">
-    <string>ca://${DEV}:LPI_REMOTE_RESET</string>
+    <string>ca://${DEV}:LPI_OPEN_RESET</string>
    </property>
    <property name="pressValue" stdset="0">
     <string>1234</string>
@@ -3703,7 +3703,7 @@ IonPump[state=&quot;FAULT&quot;] #icon {
     <string>OPEN</string>
    </property>
    <property name="channel" stdset="0">
-    <string>ca://${DEV}:LPI_REMOTE_SET</string>
+    <string>ca://${DEV}:LPI_OPEN_SET</string>
    </property>
    <property name="pressValue" stdset="0">
     <string>1234</string>
