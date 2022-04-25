@@ -24,21 +24,21 @@ file fanout15bit.template {
 }
 
 file hpm900bi.template {
-    pattern {RECORD_NAME, DESC, BIT}
-    {ALARM_RMT_SHUTDOWN_RBV, "System Alarm, Remote Shutdown Triggered", 0}
-    {ALARM_EMO_BTN_PRESSED_RBV, "System Alarm, EMO Button Pressed", 1}
-    {ALARM_GAS_DET_WN_IN_RBV, "System Alarm, Gas Detector WN inp Trig", 2}
-    {ALARM_GAS_DET_ALM_IN_RBV, "System Alarm, Gas Detector ALM inp Trig", 3}
-    {ALARM_FIRE_DET_IN_RBV, "System Alarm, Fire Detector Input Trig", 4}
-    {ALARM_COAX_IN_RBV, "System Alarm, COAX Input Triggered", 5}
-    {ALARM_EX_DP_SW_RBV, "System Alarm, Exhaust DP Switch Trig", 6}
-    {ALARM_N2_PRESS_SW_RBV, "System Alarm,N2 Pressure Switch Inp Trig", 7}
-    {ALARM_Z_PURGE_PRESS_SW_RBV, "SysAlarm,Z Purge Pressure Switch InpTrig", 8}
-    {ALARM_GAS_ON_IN_RBV, "System Alarm, Gas-On Input Triggered", 9}
-    {ALARM_DIG_IN_1_RBV, "System Alarm, Digital Input 1 Triggered", A}
-    {ALARM_DIG_IN_2_RBV, "System Alarm, Digital Input 2 Triggered", B}
-    {ALARM_DIG_IN_3_RBV, "System Alarm, Digital Input 3 Triggered", C}
-    {ALARM_DIG_IN_4_RBV, "System Alarm, Digital Input 4 Triggered", D}
-    {ALARM_SYST_STARTUP_RBV, "System Alarm, System Start Up", E}
+    pattern {RECORD_NAME, DESC, BIT, INP}
+    {ALARM_RMT_SHUTDOWN_RBV, "System Alarm, Remote Shutdown Triggered", 0, SYSTEM_ALARM_RBV}
+    {ALARM_EMO_BTN_PRESSED_RBV, "System Alarm, EMO Button Pressed", 1, SYSTEM_ALARM_RBV}
+    {ALARM_GAS_DET_WN_IN_RBV, "System Alarm, Gas Detector WN inp Trig", 2, SYSTEM_ALARM_RBV}
+    {ALARM_GAS_DET_ALM_IN_RBV, "System Alarm, Gas Detector ALM inp Trig", 3, SYSTEM_ALARM_RBV}
+    {ALARM_FIRE_DET_IN_RBV, "System Alarm, Fire Detector Input Trig", 4, SYSTEM_ALARM_RBV}
+    {ALARM_COAX_IN_RBV, "System Alarm, COAX Input Triggered", 5, SYSTEM_ALARM_RBV}
+    {ALARM_EX_DP_SW_RBV, "System Alarm, Exhaust DP Switch Trig", 6, SYSTEM_ALARM_RBV}
+    {ALARM_N2_PRESS_SW_RBV, "System Alarm,N2 Pressure Switch Inp Trig", 7, SYSTEM_ALARM_RBV}
+    {ALARM_Z_PURGE_PRESS_SW_RBV, "SysAlarm,Z Purge Pressure Switch InpTrig", 8, SYSTEM_ALARM_RBV}
+    {ALARM_GAS_ON_IN_RBV, "System Alarm, Gas-On Input Triggered", 9, SYSTEM_ALARM_RBV}
+    {ALARM_DIG_IN_1_RBV, "System Alarm, Digital Input 1 Triggered", A, SYSTEM_ALARM_RBV}
+    {ALARM_DIG_IN_2_RBV, "System Alarm, Digital Input 2 Triggered", B, SYSTEM_ALARM_RBV}
+    {ALARM_DIG_IN_3_RBV, "System Alarm, Digital Input 3 Triggered", C, SYSTEM_ALARM_RBV}
+    {ALARM_DIG_IN_4_RBV, "System Alarm, Digital Input 4 Triggered", D, SYSTEM_ALARM_RBV}
+    {ALARM_SYST_STARTUP_RBV, "System Alarm, System Start Up", E, SYSTEM_ALARM_RBV}
     
 }

@@ -13,21 +13,6 @@ file hpm900longout.template {
   {LPI_OPEN_RESET, 10, "set LPI Remote register"}
 }
 
-file hpm900bo.template {
-  pattern {RECORD_NAME, FLNK, DESC}
-  {ALARM_ACK_BUTT, ALARM_ACK_SET, "Acknowledge alarm button"}
-  {ALARM_RESET_BUTT, ALARM_RESET_SET, "Reset alarm button"}
-  {PANEL_A_STOP_BUTT, PANEL_A_STOP_SET, "Panel A Stop button"}
-  {PANEL_B_STOP_BUTT, PANEL_B_STOP_SET, "Panel B Stop button"}
-  {PANEL_A_MANUAL_BUTT, PANEL_A_MANUAL_MODE_SET, "Panel A Manual mode button"}
-  {PANEL_B_MANUAL_BUTT, PANEL_B_MANUAL_MODE_SET, "Panel B Manual mode button"}
-  {PANEL_A_SERVICE_BUTT, PANEL_A_SERVICE_MODE_SET, "Panel A Service mode button"}
-  {PANEL_B_SERVICE_BUTT, PANEL_A_SERVICE_MODE_SET, "Panel B Service mode button"}
-  {MANUAL_SWOVER_BUTT, MANUAL_SWITCHOVER_SET, "Manual Switchover button"}
-  {LPI_OPEN_BUTT, LPI_OPEN_SET, "LPI valve Remote mode button"}
-  {LPI_CLOSE_BUTT, LPI_OPEN_RESET, "LPI valve Local mode button"}
-}
-
 #file hpm900longin.template {
 #  pattern {RECORD_NAME, OFFSET, DESC}
 #  {ALARM_ACK_RBV, 60, "Alarm Ack read back"}

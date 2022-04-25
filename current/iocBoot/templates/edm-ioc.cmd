@@ -10,14 +10,12 @@ fi
 # Setup edm environment
 source /reg/g/pcds/pyps/conda/py36env.sh
 
-$$LOOP(HPM900)
-export IOC_PV=$$IOC_PV
-export BASE=$$BASE
-
 pushd $$IOCTOP/hpm900Screens
+
+$$LOOP(HPM900)
 $$IF(ONEPANEL)
-pydm -m "DEV=${BASE},IOC=${IOC_PV}" gasCabinet_onepanel.ui &
+pydm -m "DEV=$$BASE,IOC=$$IOC_PV" gasCabinet_onepanel.ui &
 $$ELSE(ONEPANEL)
-pydm -m "DEV=${BASE},IOC=${IOC_PV}" gasCabinet.ui &
+pydm -m "DEV=$$BASE,IOC=$$IOC_PV" gasCabinet.ui &
 $$ENDIF(ONEPANEL)
 $$ENDLOOP(HPM900)

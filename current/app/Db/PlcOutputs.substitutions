@@ -4,7 +4,7 @@ file hpm900mbbiDirect.template {
 }
 
 file fanout7bit.template {
-    pattern {RECORD_NAME,LINK0,LINK1,LINK2,LINK3,LINK4,LINK5,LINK6}
+  pattern {RECORD_NAME,LINK0,LINK1,LINK2,LINK3,LINK4,LINK5,LINK6}
     {PLC_OUTPUTS_FANOUT,
      RED_SYSTEM_A_RBV,
      YELLOW_SYSTEM_A_RBV,
@@ -16,12 +16,12 @@ file fanout7bit.template {
 }
 
 file hpm900bi.template {
-    pattern {RECORD_NAME, DESC, BIT}
-    {RED_SYSTEM_A_RBV, "plc output, Red System A", 8}
-    {YELLOW_SYSTEM_A_RBV, "plc output, Yellow System A", 9}
-    {GREEN_SYSTEM_A_RBV, "plc output, Green System A", A}
-    {RED_SYSTEM_B_RBV, "plc output, Red System B", B}
-    {YELLOW_SYSTEM_B_RBV, "plc output, Yellow System B", C}
-    {GREEN_SYSTEM_B_RBV, "plc output, Green System B", D}
-    {HORN_RBV, "plc output, horn bit", E}
+  pattern {RECORD_NAME, DESC, BIT, INP}
+    {RED_SYSTEM_A_RBV, "plc output, Red System A", 8, PLC_OUTPUTS_RBV}
+    {YELLOW_SYSTEM_A_RBV, "plc output, Yellow System A", 9, PLC_OUTPUTS_RBV}
+    {GREEN_SYSTEM_A_RBV, "plc output, Green System A", A, PLC_OUTPUTS_RBV}
+    {RED_SYSTEM_B_RBV, "plc output, Red System B", B, PLC_OUTPUTS_RBV}
+    {YELLOW_SYSTEM_B_RBV, "plc output, Yellow System B", C, PLC_OUTPUTS_RBV}
+    {GREEN_SYSTEM_B_RBV, "plc output, Green System B", D, PLC_OUTPUTS_RBV}
+    {HORN_RBV, "plc output, horn bit", E, PLC_OUTPUTS_RBV}
 }
