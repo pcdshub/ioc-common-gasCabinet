@@ -135,6 +135,13 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
    <property name="showLabels" stdset="0">
     <bool>false</bool>
    </property>
@@ -163,6 +170,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
@@ -210,6 +224,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
@@ -276,6 +297,13 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
    <property name="showLabels" stdset="0">
     <bool>false</bool>
    </property>
@@ -320,6 +348,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
@@ -370,6 +405,13 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
    <property name="showLabels" stdset="0">
     <bool>false</bool>
    </property>
@@ -414,6 +456,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
@@ -464,6 +513,13 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
    <property name="showLabels" stdset="0">
     <bool>false</bool>
    </property>
@@ -508,6 +564,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
@@ -558,6 +621,13 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
    <property name="showLabels" stdset="0">
     <bool>false</bool>
    </property>
@@ -602,6 +672,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
@@ -652,6 +729,13 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
    <property name="showLabels" stdset="0">
     <bool>false</bool>
    </property>
@@ -696,6 +780,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
@@ -746,6 +837,13 @@
      <blue>0</blue>
     </color>
    </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
    <property name="showLabels" stdset="0">
     <bool>false</bool>
    </property>
@@ -774,6 +872,13 @@
     <color>
      <red>255</red>
      <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="offColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>255</green>
      <blue>0</blue>
     </color>
    </property>
