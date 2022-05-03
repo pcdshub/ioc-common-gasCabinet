@@ -1,0 +1,8 @@
+record(bi, "$(DEV):$(RECORD_NAME)")
+{
+    field(DESC, "$(DESC)")
+    field(INP,  "$(DEV):$(INP).B$(BIT) CPP NMS")
+    field(ZNAM, "OFF")
+    field(ONAM, "ON")
+}
+

@@ -1,0 +1,41 @@
+file hpm900mbbiDirect.template {
+  pattern {RECORD_NAME, OFFSET, FANOUT_RECORD}
+  {PLC_INPUTS_RBV, 1, PLC_INPUTS_FANOUT}
+}
+
+file fanout14bit.template {
+    pattern {RECORD_NAME,LINK0,LINK1,LINK2,LINK3,LINK4,LINK5,LINK6,LINK7,LINK8,LINK9,LINKA,LINKB,LINKC,LINKD}
+    {PLC_INPUTS_FANOUT,
+     Z_PURGE_RBV,
+     GAS_ON_RBV,
+     DIG_IN_1_RBV,
+     DIG_IN_2_RBV,
+     DIG_IN_3_RBV,
+     DIG_IN_4_RBV,
+     RSD_RBV,
+     EMO_STOP_RBV,
+     GAS_WN_RBV,
+     GAS_ALM_RBV,
+     FIRE_DETECTOR_RBV,
+     COAX_RBV,
+     EXH_RBV,
+     N2_RBV}
+}
+
+file hpm900bi.template {
+    pattern {RECORD_NAME, DESC, BIT, INP}
+    {Z_PURGE_RBV, "plc input, Z purge bit", 0, PLC_INPUTS_RBV}
+    {GAS_ON_RBV, "plc input, gas on bit", 1, PLC_INPUTS_RBV}
+    {DIG_IN_1_RBV, "plc input, Dig In 1 bit", 2, PLC_INPUTS_RBV}
+    {DIG_IN_2_RBV, "plc input, Dig In 2 bit", 3, PLC_INPUTS_RBV}
+    {DIG_IN_3_RBV, "plc input, Dig In 3 bit", 4, PLC_INPUTS_RBV}
+    {DIG_IN_4_RBV, "plc input, Dig In 4 bit", 5, PLC_INPUTS_RBV}
+    {RSD_RBV, "plc input, RSD bit", 8, PLC_INPUTS_RBV}
+    {EMO_STOP_RBV, "plc input, EMO Stop bit", 9, PLC_INPUTS_RBV}
+    {GAS_WN_RBV, "plc input, Gas-WN bit", A, PLC_INPUTS_RBV}  
+    {GAS_ALM_RBV, "plc input, Gas-ALM bit", B, PLC_INPUTS_RBV}  
+    {FIRE_DETECTOR_RBV, "plc input, Fire Detector bit", C, PLC_INPUTS_RBV}  
+    {COAX_RBV, "plc input, Coax bit", D, PLC_INPUTS_RBV}  
+    {EXH_RBV, "plc input, EXH bit", E, PLC_INPUTS_RBV}  
+    {N2_RBV, "plc input, N2 bit", F, PLC_INPUTS_RBV}  
+}

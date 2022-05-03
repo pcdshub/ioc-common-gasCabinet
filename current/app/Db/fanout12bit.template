@@ -1,0 +1,16 @@
+record(fanout, "$(DEV):$(RECORD_NAME)")
+{
+    field(LNK0, "$(DEV):$(LINK0)")
+    field(LNK1, "$(DEV):$(LINK1)")
+    field(LNK2, "$(DEV):$(LINK2)")
+    field(LNK3, "$(DEV):$(LINK3)")
+    field(LNK4, "$(DEV):$(LINK4)")
+    field(LNK5, "$(DEV):$(LINK5)")
+    field(LNK6, "$(DEV):$(LINK6)")
+    field(LNK7, "$(DEV):$(LINK7)")
+    field(LNK8, "$(DEV):$(LINK8)")
+    field(LNK9, "$(DEV):$(LINK9)")
+    field(LNKA, "$(DEV):$(LINKA)")
+    field(LNKB, "$(DEV):$(LINKB)")
+}
+

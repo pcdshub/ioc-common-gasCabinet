@@ -1,0 +1,4 @@
+file hpm900longin.template {
+  pattern {RECORD_NAME, DESC, OFFSET}
+  {SYSTEM_HEARTBEAT_RBV, "System Heartbeat, 0-59 counter", 0}
+}

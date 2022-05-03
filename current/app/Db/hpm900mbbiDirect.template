@@ -1,0 +1,14 @@
+# Records for hpm900.gc AQI
+# Macros:
+#     DEV - PV basename
+
+
+record(mbbiDirect, "$(DEV):$(RECORD_NAME)")
+{
+    field(DESC, "read 16 bits of reg 40000+$(OFFSET)")
+    field(SCAN, "2 second")
+    field(DTYP, "asynUInt32Digital")
+    field(INP,  "@asynMask(HPM900$(N)_read_reg,$(OFFSET),0xFFFF)UINT16")
+    field(FLNK, "$(DEV):$(FANOUT_RECORD)")
+}
+
